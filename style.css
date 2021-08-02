@@ -13,9 +13,46 @@
     color:#fff;
     border-radius: 8px;
     padding:9px 25px;
-    coursor:pointer;
+    cursor:pointer;
     border: none;
 }
 .container{
 margin-bottom: 100px;
 }
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+  
+}
+.cat1{
+    background-image: linear-gradient(rgb(245, 208, 140),orange);
+}
+.cat2{
+    background-image: linear-gradient(rgba(230, 125, 230, 0.932),rgb(170, 5, 170));
+}
+.cat3{
+    background-image: linear-gradient(rgb(120, 120, 252),rgb(32, 32, 179));
+}
+.catagories h1{
+    color:white;
+}
+.catagories img{
+    width: 100px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;}
+    .card-footer{
+    border-top:none ;
+    background-color: white;
+    }
+    #contact-us{
+        height:300px
+    }
+    #contact-us h6{
+        color: gray;
+    }
+    footer{
+        text-align: center;
+    }
